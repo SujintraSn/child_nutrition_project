@@ -425,7 +425,6 @@ living_counts = df['Living Situation Label'].value_counts()
 color_map = {
     'Parents (พ่อแม่)': '#A8D5BA',          # เขียวพาสเทล
     'Grandparents/Relatives (ญาติ, ตา-ยาย)': '#FFCC99',  # ส้มพาสเทล
-    'Unknown': '#CCCCCC'
 }
 colors = [color_map.get(label, '#BBBBBB') for label in living_counts.index]
 # พล็อตกราฟแท่ง
